@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.beer-image {
+  max-height: 80px;
+  max-width: 80px;
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+  width: auto;
+  height: auto;
+}
+
+.ui.card .image a {
+  display: block;
+  text-align: center;
+}
+
+.ui.checkbox.positioned {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.delete-button-wrapper {
+  height: 50px;
+  text-align: right;
+}
+
+.delete-button-wrapper .button {
+  margin-top: 5px;
+}
+
+.ui.breadcrumb a.section.back-button {
+  margin: 10px 5px;
+  color: black;
+}
+
+.ui.grid>.column:not(.row),
+.ui.grid>.row>.column {
+  transition: all .5s;
+}
+
+.ui.grid>.column:not(.row).hidden,
+.ui.grid>.row>.column.hidden {
+  display: none;
+}
+
+#load-more {
+  margin: 20px;
+  text-align: center;
+}
+
+
+.ui.card {
+  /*min-height: 200vh;*/
+}
+
+.ui.container {
+  margin: 1px;
+}
